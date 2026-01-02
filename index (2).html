@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset='utf-8'/>
+<meta content='width=device-width,initial-scale=1' name='viewport'/>
+<title>Abhay Ventures | Official Portfolio Hub</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+<style>
+  :root {
+    --primary-bg: #020617;
+    --gold: #ffcc00;
+    --card-bg: rgba(15, 23, 42, 0.7);
+    --text-slate: #94a3b8;
+  }
+
+  * { box-sizing: border-box; scroll-behavior: smooth; transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+  body { font-family: 'Outfit', sans-serif; background: var(--primary-bg); color: #fff; margin: 0; overflow-x: hidden; }
+
+  /* Premium Header Design */
+  header { 
+    padding: 100px 20px 60px; text-align: center; 
+    background: radial-gradient(circle at top, #1e293b 0%, #020617 100%);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .udyam-badge { 
+    display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--gold);
+    padding: 8px 18px; border-radius: 50px; color: var(--gold); font-size: 13px; 
+    margin-bottom: 25px; background: rgba(255, 204, 0, 0.05); font-weight: 600;
+  }
+  .main-logo { 
+    width: 150px; height: 150px; border-radius: 50%; 
+    border: 3px solid var(--gold); padding: 5px; background: #000;
+    box-shadow: 0 0 30px rgba(255, 204, 0, 0.2);
+  }
+  h1 { font-size: clamp(35px, 8vw, 55px); margin: 20px 0 5px; font-weight: 800; letter-spacing: 1px; }
+  .tagline { color: var(--text-slate); font-size: 18px; max-width: 600px; margin: 0 auto; }
+
+  /* Main Container */
+  .container { max-width: 1100px; margin: 60px auto; padding: 0 20px; }
+  .section-header { margin-bottom: 50px; }
+  .section-header h2 { font-size: 32px; color: var(--gold); border-bottom: 3px solid var(--gold); display: inline-block; padding-bottom: 5px; text-transform: uppercase; }
+
+  /* Grid System */
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+  .card { 
+    background: var(--card-bg); padding: 45px 35px; border-radius: 25px; 
+    border: 1px solid rgba(255,255,255,0.05); position: relative;
+    backdrop-filter: blur(10px);
+  }
+  .card:hover { border-color: var(--gold); transform: translateY(-8px); box-shadow: 0 15px 35px rgba(0,0,0,0.4); }
+  .card i { font-size: 45px; color: var(--gold); margin-bottom: 25px; }
+  .card h3 { font-size: 24px; margin-bottom: 15px; color: #fff; }
+  .card p { color: var(--text-slate); line-height: 1.8; margin-bottom: 20px; }
+  
+  .btn-outline { 
+    display: inline-block; padding: 12px 25px; background: transparent; 
+    color: var(--gold); text-decoration: none; border: 2px solid var(--gold); 
+    border-radius: 12px; font-weight: 800; font-size: 14px; text-align: center; width: 100%;
+  }
+  .btn-outline:hover { background: var(--gold); color: #000; }
+
+  /* Contact Link Block */
+  .contact-section { text-align: center; background: var(--card-bg); padding: 60px 40px; border-radius: 30px; border: 1px solid rgba(255,255,255,0.05); margin-top: 50px; }
+  .contact-cta { 
+    display: inline-block; background: var(--gold); color: #000; 
+    padding: 18px 45px; border-radius: 15px; font-weight: 800; 
+    text-decoration: none; font-size: 18px; margin-top: 25px;
+    box-shadow: 0 8px 20px rgba(255, 204, 0, 0.25);
+  }
+  .contact-cta:hover { transform: scale(1.05); }
+
+  /* Sticky WhatsApp */
+  .wa-float { position: fixed; bottom: 35px; right: 35px; background: #25d366; color: white; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 35px; z-index: 1000; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+
+  /* Footer Section */
+  footer { text-align: center; padding: 80px 20px; border-top: 1px solid rgba(255,255,255,0.05); background: #010411; }
+  .udyam-no { color: var(--gold); font-weight: 600; letter-spacing: 1px; margin-bottom: 20px; display: block; }
+  .social-links { margin: 30px 0; font-size: 24px; display: flex; justify-content: center; gap: 30px; }
+  .social-links a { color: #fff; }
+  .social-links a:hover { color: var(--gold); }
+  .legal-text { font-size: 12px; color: var(--text-slate); opacity: 0.7; }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="udyam-badge"><i class="fas fa-award"></i> Government Registered MSME Entity</div><br/>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7I6vOqA-DqT0R_Wb7R0P_h-Z2oE0q5X9Y_I5A/s1600/1000461467.jpg" class="main-logo" alt="Abhay Ventures Logo"/>
+  <h1>ABHAY <span style="color:var(--gold)">VENTURES</span></h1>
+  <p class="tagline">Modern Development & Secure Digital Architecture</p>
+</header>
+
+<div class="container">
+  <div class="section-header"><h2>Core Services</h2></div>
+  <div class="grid">
+    <div class="card">
+      <i class="fas fa-terminal"></i>
+      <h3>Professional Web & App Design</h3>
+      <p>हम उच्च प्रदर्शन वाली सुरक्षित वेबसाइट्स/Apps/Software बनाते हैं जो आपके ब्रांड को डिजिटल रूप से सशक्त बनाती हैं]</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-fingerprint"></i>
+      <h3>Security & Licensing</h3>
+      <p>आपके डिजिटल एसेट्स की सुरक्षा के लिए अत्याधुनिक 'License Key' और पेमेंट प्रोटेक्शन सिस्टम।</p>
+    </div>
+  </div>
+
+  <div class="section-header" style="margin-top:80px;"><h2>Live Projects Hub</h2></div>
+  <div class="grid">
+    <div class="card" style="border-top: 4px solid var(--gold);">
+      <h3>Job Setu Plus</h3>
+      <p>भर्ती प्रक्रिया को सरल बनाने के लिए Government Work/Scheme, हमारा प्रीमियम जॉब पोर्टल। यह अभय वेंचर्स का प्रमुख प्रोजेक्ट है ]</p>
+      <a href="https://abhjobsetualert.blogspot.com/" class="btn-outline" target="_blank">Visit Project <i class="fas fa-external-link-alt"></i></a>
+    </div>
+    <div class="card" style="background: rgba(15, 23, 42, 0.4); border-style: dashed;">
+      <h3>Upcoming Project</h3>
+      <p>नया नवाचार जल्द ही यहाँ प्रदर्शित होगा। हमारी विकास यात्रा का हिस्सा बने रहें। </p>
+      <span class="btn-outline" style="opacity: 0.5; pointer-events: none;">Coming Soon</span>
+    </div>
+  </div>
+
+  <div class="section-header" style="margin-top:80px;"><h2>Get In Touch</h2></div>
+  <div class="contact-section">
+    <h2>अगले बड़े प्रोजेक्ट के लिए तैयार हैं?</h2>
+    <p style="color:var(--text-slate);">तकनीकी सहायता या परामर्श के लिए हमारा आधिकारिक फॉर्म भरें।</p>
+    <a href="https://form.svhrt.com/69142f5a3a10c48735233c1c" class="contact-cta" target="_blank">
+      <i class="fas fa-paper-plane"></i> कांटेक्ट सपोर्ट फॉर्म
+    </a>
+  </div>
+</div>
+
+<a href="https://wa.me/916200900281" class="wa-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<footer>
+  <h2 style="color:var(--gold); margin-bottom:10px; letter-spacing:1.5px;">ABHAY VENTURES</h2>
+  <span class="udyam-no">Udyam Registration: [UDYAM-BR-15-0010595]</span> 
+  
+  <div class="social-links">
+    <a href="https://www.facebook.com/profile.php?id=61578267458332" ><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <p class="legal-text">
+    © 2026 Abhay Ventures. <a href="#" style="color:var(--text-slate)">Terms of Service</a> | <a href="#" style="color:var(--text-slate)">Privacy Policy</a>
+  </p>
+</footer>
+
+</body>
+</html>
